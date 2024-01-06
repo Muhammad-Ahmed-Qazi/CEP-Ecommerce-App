@@ -1,0 +1,1 @@
+{'email': 'qmuhammadahmed@gmail.com', 'password': '1234', 'first_name': 'Muhammad', 'last_name': 'Ahmed Qazi', 'address': 'A10, NEDUET Staff Colony, Karachi.', 'phone_number': '0326 1133062', 'age': 19, 'is_admin': True}
