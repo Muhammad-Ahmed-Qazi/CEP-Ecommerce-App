@@ -1,0 +1,7 @@
+# Data
+{'email': 'qaziahmedsaad@gmail.com', 'password': '123', 'first_name': 'Saad', 'last_name': 'Ahmed Qazi', 'address': 'A10', 'phone_number': '0323 8228867', 'age': 45, 'is_admin': False}
+
+# Cart
+
+
+# History
