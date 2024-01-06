@@ -1,0 +1,4 @@
+{'code': '1', 'name': 'biryani', 'price': 100, 'description': 'the biryani is very nice', 'quantity': 20}
+{'code': '2', 'name': 'nehari', 'price': 150, 'description': 'the nehari is very nice', 'quantity': 10}
+{'code': '3', 'name': 'haleem', 'price': 50, 'description': 'the haleem is very nice', 'quantity': 30}
+{'code': '1', 'name': 'biryani', 'price': 100, 'description': 'the biryani is very nice', 'quantity': 17}

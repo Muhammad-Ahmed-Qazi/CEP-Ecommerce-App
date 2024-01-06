@@ -1,0 +1,1 @@
+{'email': 'mutahirahmed001@gmail.com', 'password': '78692mutahir', 'first_name': 'Mutahir', 'last_name': 'Ahmed Siddiqui', 'address': 'A-146, North Karachi, Karachi.', 'phone_number': '0330 2357555', 'age': 18, 'is_admin': False}

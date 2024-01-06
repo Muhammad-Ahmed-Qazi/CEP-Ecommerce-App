@@ -149,7 +149,20 @@ def view_cart(user_f):
 
 
 
+# def checkout(user_f):
+#     flag = False
 
+#     with open(user_f, 'r+') as user_file:
+#         lines = user_file.readlines()
+#         user_file.seek(0)
+#         user_file.truncate()
+#         for line in lines:
+#             if flag == True:
+#                 user_file.write(line)
+#             else:
+#                 if line.find("# History") == 0:
+#                     flag = True
+#                     user_file.write(line)
 
 
 
@@ -173,6 +186,9 @@ while True:
             cart_view_option = input('You want to view cart?(Y,N): ')
             if cart_view_option == 'Y':
                 view_cart(str(login_data[1])+'.txt')
+            # checkout_option = input('You want to checkout?(Y,N): ')
+            # if checkout_option == 'Y':
+            #     checkout(str(login_data[1])+'.txt')
             else:
                 break
             break
@@ -183,4 +199,5 @@ while True:
         print('Please Enter the Username & Password for login!!!')
         print(login('authentication.txt'))
         break
+
 
