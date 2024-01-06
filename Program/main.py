@@ -80,6 +80,7 @@ def add_to_cart():
 def view_cart():
     global user_email
     products = open("./Files/products.txt", "r").readlines()
+    flag = True
 
     total = [0, 0]
 
@@ -90,7 +91,7 @@ def view_cart():
         lines = cart_file.readlines()
 
         for line in lines:
-            if line.strip().startswith("["):
+            if line.strip().startswith("[") and flag == True:
                 product_id = eval(line)[0]
                 quantity = eval(line)[1]
                 for product in products:
@@ -101,6 +102,8 @@ def view_cart():
                         print("\n")
                 total[1] += int(quantity)
                 total[0] += int(product["price"]) * int(quantity)
+            elif line.strip().startswith("# History"):
+                break
     
     print(f"Total: ${total[0]}")
     print(f"Total items: {total[1]}")
@@ -175,38 +178,36 @@ def show_hist():
         elif line.strip().startswith("# History"):
             found_history = True
 
-show_hist()
-
     
 
 
 while True:
-    # registered = login()
+    registered = login()
 
-    # if not registered:
-    #     print("This email is not registered. Please create an account below.")
-    #     signup()
-    #     print("Account created! Please login below.")
-    #     login()
+    if not registered:
+        print("This email is not registered. Please create an account below.")
+        signup()
+        print("Account created! Please login below.")
+        login()
 
-    user_email = "qmuhammadahmed@gmail.com" # COMMENT THIS OUT WHEN DONE TESTING
+    # user_email = "qmuhammadahmed@gmail.com" # COMMENT THIS OUT WHEN DONE TESTING
     
-    # show_pr()
-    # user_input = input("Do you want to add products to your cart? (y/n): ")
-    # if user_input.lower() == "y":
-    #     add_to_cart()
+    show_pr()
+    user_input = input("Do you want to add products to your cart? (y/n): ")
+    if user_input.lower() == "y":
+        add_to_cart()
 
-    # print("\n")
-    # view_cart()
-    # print("\n")
+    print("\n")
+    view_cart()
+    print("\n")
 
-    # user_input = input("Do you want to remove products from your cart? (y/n): ")
-    # if user_input.lower() == "y":
-    #     remove_from_cart()
+    user_input = input("Do you want to remove products from your cart? (y/n): ")
+    if user_input.lower() == "y":
+        remove_from_cart()
 
-    # checkout()
+    checkout()
 
-    show_hist()
+    # show_hist()
 
     input()
     

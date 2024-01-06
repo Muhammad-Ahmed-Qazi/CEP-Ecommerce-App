@@ -1,0 +1,19 @@
+# Data
+{'email': 'mutahirahmed001@gmail.com', 'password': '78692mutahir', 'first_name': 'Mutahir', 'last_name': 'Ahmed Siddiqui', 'address': 'A146', 'phone_number': '0330 2357555', 'age': 18, 'is_admin': False}
+
+# Cart
+
+
+# History
+06/01/2024, 21:11:30
+[2, 3]
+
+06/01/2024, 21:12:09
+[3, 3]
+
+06/01/2024, 21:17:07
+[4, 4]
+[3, 3]
+
+06/01/2024, 21:24:04
+[3, 2]

@@ -1,1 +1,2 @@
 {'email': 'qmuhammadahmed@gmail.com', 'password': '1234', 'first_name': 'Muhammad', 'last_name': 'Ahmed Qazi', 'address': 'A10, NEDUET Staff Colony, Karachi.', 'phone_number': '0326 1133062', 'age': 19, 'is_admin': True}
+{'email': 'mutahirahmed001@gmail.com', 'password': '78692mutahir', 'first_name': 'Mutahir', 'last_name': 'Ahmed Siddiqui', 'address': 'A146', 'phone_number': '0330 2357555', 'age': 18, 'is_admin': False}
